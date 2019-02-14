@@ -37,4 +37,4 @@ Es sind standardmäßig 5 Hotkeys voreingestellt. Diese sind:
 * `STRG + ALT + 4 (Zehnertastatur)` IngameSpectate Szene
 
 ## Weiterverwendung
-Die Overlays und das generelle Layout dürfen nicht für private Zwecke weiterverwendet werden und gehören ausschließlich dem HSA eSports. Dementsprechend dürfen Overlays auch nicht in privaten Streams verwendet werden.
+Nur Mitglieder des HSA eSports dürfen das Layout verwenden.
