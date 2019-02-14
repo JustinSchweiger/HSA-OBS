@@ -25,7 +25,7 @@ Hast du eine Bestätigung erhalten, kannst du mittels folgener Chat-Kommandos de
 * `!Title [Titel]` Ändert den Titel
 
 ## Updates
-Vor jedem Start wird auf ein Update überprüft. Sollte eines gefunden werden, updated sich das Repository automatisch. Solltet ihr extra Szenen erstellt haben werden diese dann dementsprechend gelöscht. Vorschläge für extra Szenen solltet ihr also am besten hier auf GitHub einreichen.
+Im Installationsordner ist eine `Update.bat` Datei enthalten. Sollte es ein neues Update geben, so führe diese Datei bitte aus. Alle anderen selbsterstellten Szenen werden dabei gelöscht.
 
 ## Hotkeys
 Es sind standardmäßig 5 Hotkeys voreingestellt. Diese sind:
