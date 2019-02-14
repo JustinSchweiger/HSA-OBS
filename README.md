@@ -2,7 +2,7 @@
 ## Installation
 * Download des Hauptordners.
 >[HSAOBS](Install/HSAOBS.zip)
-* Entpackt den Ordner.
+* Entpackt den Ordner an der von euch gewünschten Stelle (z.B. C:/HSAOBS).
 * Startet die darin enthaltene `Install.bat` und folgt den Anweisungen auf dem Bildschirm.
 * Wurde alles erfolgreich installiert, sollte sich OBS automatisch öffnen.
 * Solltet ihr beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden.` erhalten, dann startet zusätzlich `Install-vcredist.bat`
