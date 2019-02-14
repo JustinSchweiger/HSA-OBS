@@ -5,7 +5,7 @@
 * Entpackt den Ordner.
 * Startet die darin enthaltene `Install.bat` und folgt den Anweisungen auf dem Bildschirm.
 * Wurde alles erfolgreich installiert, sollte sich OBS automatisch öffnen.
-* Solltet ihr beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden.` erhalten, dann startet zusätzlich `Install-vcredist.bat`.
+* Solltet ihr beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden.` erhalten, dann startet zusätzlich `Install-vcredist.bat`
 * Um OBS dann in Zukunft schneller starten zu können, legt euch eine Verknüpfung auf dem Desktop an welche zur Datei `StartHSA-OBS.bat` führt.
 
 
@@ -21,7 +21,7 @@ Grundsätzlich solltet ihr die Reihenfolge der einzelnen Inhalte einer Szene nic
 
 
 ## Streamkey
-Bevor ihr anfangen könnt zu streamen, benötigt ihr erst den Streamkey des HSAeSports Kanals. Um diesen zu erhalten, schreibt eine E-Mail an `esports-anhalt@gmx.de`.
+Bevor ihr anfangen könnt zu streamen, benötigt ihr erst den Streamkey des HSAeSports Kanals. Um diesen zu erhalten, schreibt eine E-Mail an `esports-anhalt@gmx.de`
 
 Habt ihr eine Bestätigung erhalten, könnt ihr mittels folgener Chat-Kommandos den Titel und das Spiel ändern:
 * `!Game [Spiel]` Ändert das Spiel
