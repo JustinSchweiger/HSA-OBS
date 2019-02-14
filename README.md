@@ -4,7 +4,7 @@
 * Entpacke den Ordner an der von dir gewünschten Stelle (z.B. C:/HSAOBS).
 * Starte die darin enthaltene `Install.bat` und folge den Anweisungen auf dem Bildschirm.
 * Wurde alles erfolgreich installiert, sollte sich OBS automatisch öffnen.
-* Solltest du beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden.` erhalten, dann startet zusätzlich `Install-vcredist.bat`
+* Solltest du beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden` erhalten, dann starte zusätzlich die Datei `Install-vcredist.bat`
 * Um OBS dann in Zukunft schneller starten zu können, legt euch eine Verknüpfung auf dem Desktop an welche zur Datei `StartHSA-OBS.bat` führt.
 
 ## Erläuterung
