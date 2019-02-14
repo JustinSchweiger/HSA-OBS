@@ -1,7 +1,7 @@
 # HSA eSports - League of Legends Stream Overlay
 ## Installation
 * Download des Hauptordners.
->[HSA-OBS-LOL](Install/HSA-OBS-LOL)
+>[HSA-OBS-LOL](Install/HSAOBS.zip)
 * Entpackt den Ordner.
 * Startet die darin enthaltene `Install.bat` und folgt den Anweisungen auf dem Bildschirm.
 * Wurde alles erfolgreich installiert, sollte sich OBS automatisch öffnen.
