@@ -1,4 +1,4 @@
-# HSA eSports League of Legends Stream Overlay
+# HSA eSports - League of Legends Stream Overlay
 ## Installation
 * Download des Hauptordners.
 >[HSA-OBS-LOL](Install/HSA-OBS-LOL)
@@ -7,7 +7,6 @@
 * Wurde alles erfolgreich installiert, sollte sich OBS automatisch öffnen.
 * Solltet ihr beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden.` erhalten, dann startet zusätzlich `Install-vcredist.bat`
 * Um OBS dann in Zukunft schneller starten zu können, legt euch eine Verknüpfung auf dem Desktop an welche zur Datei `StartHSA-OBS.bat` führt.
-
 
 ## Erläuterung
 Die Inhalte einer Szene sind mit verschiedenen Farben gekennzeichnet. Jede Farbe hat eine bestimmte Bedeutung welche ihr hier genauer nachlesen könnt:
@@ -19,7 +18,6 @@ Die Inhalte einer Szene sind mit verschiedenen Farben gekennzeichnet. Jede Farbe
 
 Grundsätzlich solltet ihr die Reihenfolge der einzelnen Inhalte einer Szene nicht verändern, da es so zu Anzeigeproblemen kommen könnte. Habt ihr etwas aus versehen geändert und könnt es nicht wieder herstellen, so könnt ihr jederzeit alles neu herunterladen.
 
-
 ## Streamkey
 Bevor ihr anfangen könnt zu streamen, benötigt ihr erst den Streamkey des HSAeSports Kanals. Um diesen zu erhalten, schreibt eine E-Mail an `esports-anhalt@gmx.de`
 
@@ -27,6 +25,13 @@ Habt ihr eine Bestätigung erhalten, könnt ihr mittels folgener Chat-Kommandos 
 * `!Game [Spiel]` Ändert das Spiel
 * `!Title [Titel]` Ändert den Titel
 
-
 ## Updates
 Habt ihr die Nachricht erhalten ein Update zu machen, dann öffnet die enthaltene `Update.bat` und folgt den Anweisungen.
+
+## Hotkeys
+Es sind standardmäßig 5 Hotkeys voreingestellt. Diese sind:
+* `STRG + ALT + 0 (Zehnertastatur)` Idle Szene
+* `STRG + ALT + 1 (Zehnertastatur)` Launcher Szene
+* `STRG + ALT + 2 (Zehnertastatur)` ChampSelect Szene
+* `STRG + ALT + 3 (Zehnertastatur)` LoadingScreen Szene
+* `STRG + ALT + 4 (Zehnertastatur)` IngameSpectate Szene
