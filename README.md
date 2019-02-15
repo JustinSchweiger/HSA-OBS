@@ -1,4 +1,4 @@
-# HSA eSports - League of Legends Stream Overlay
+# HSA eSports - OBS Stream Overlay
 ## Installation
 * [Download](Install/HSAOBS.zip) des Hauptordners.
 * Entpacke den Ordner an der von dir gewünschten Stelle (z.B. C:/HSAOBS).
@@ -37,3 +37,8 @@ Es sind standardmäßig 5 Hotkeys voreingestellt. Diese sind:
 
 ## Weiterverwendung
 Nur Mitglieder des HSA eSports dürfen das Layout verwenden.
+
+## Enthaltene Spiele
+Derzeit enthaltene Spieloverlays sind:
+* `League of Legends`
+* `Apex Legends`
