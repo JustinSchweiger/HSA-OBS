@@ -10,6 +10,7 @@ con
 /config/obs-studio/basic/profiles/*
 /config/obs-studio/basic/scenes/*.bak
 /data/*
+/- Scoreboard/Streamer Name.txt
 /obs-plugins/*
 /config/obs-studio/basic/scenes/*.bak
 /aufnahmen/*
