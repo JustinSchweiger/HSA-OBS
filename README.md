@@ -42,3 +42,5 @@ Nur Mitglieder des HSA eSports dürfen das Layout verwenden.
 Derzeit enthaltene Spieloverlays sind:
 * `League of Legends`
 * `Apex Legends`
+
+Um zwischen den enthaltenen Spielen zu wechseln, wählst du in der oberen Menüleiste unter `Szenen-Sammlung` einfach das SPiel aus welches du spielen möchtest.
