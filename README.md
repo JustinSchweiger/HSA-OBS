@@ -1,10 +1,10 @@
-# HSA eSports - League of Legends Stream Overlay
+# HSA eSports - OBS Stream Overlay
 ## Installation
 * [Download](Install/HSAOBS.zip) des Hauptordners.
 * Entpacke den Ordner an der von dir gewünschten Stelle (z.B. C:/HSAOBS).
 * Starte die darin enthaltene `Install.bat` und folge den Anweisungen auf dem Bildschirm.
 * Wurde alles erfolgreich installiert, sollte sich OBS automatisch öffnen.
-* Solltest du beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden.` erhalten, dann startet zusätzlich `Install-vcredist.bat`
+* Solltest du beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden` erhalten, dann starte zusätzlich die Datei `Install-vcredist.bat`
 * Um OBS dann in Zukunft schneller starten zu können, legt euch eine Verknüpfung auf dem Desktop an welche zur Datei `StartHSA-OBS.bat` führt.
 
 ## Erläuterung
@@ -25,7 +25,7 @@ Hast du eine Bestätigung erhalten, kannst du mittels folgener Chat-Kommandos de
 * `!Title [Titel]` Ändert den Titel
 
 ## Updates
-Vor jedem Start wird auf ein Update überprüft. Sollte eines gefunden werden, updated sich das Repository automatisch. Solltet ihr extra Szenen erstellt haben werden diese dann dementsprechend gelöscht. Vorschläge für extra Szenen solltet ihr also am besten hier auf GitHub einreichen.
+Im Installationsordner ist eine `Update.bat` Datei enthalten. Sollte es ein neues Update geben, so führe diese Datei bitte aus. Alle anderen selbsterstellten Szenen werden dabei gelöscht.
 
 ## Hotkeys
 Es sind standardmäßig 5 Hotkeys voreingestellt. Diese sind:
@@ -37,3 +37,10 @@ Es sind standardmäßig 5 Hotkeys voreingestellt. Diese sind:
 
 ## Weiterverwendung
 Nur Mitglieder des HSA eSports dürfen das Layout verwenden.
+
+## Enthaltene Spiele
+Derzeit enthaltene Spieloverlays sind:
+* `League of Legends`
+* `Apex Legends`
+
+Um zwischen den enthaltenen Spielen zu wechseln, wählst du in der oberen Menüleiste unter `Szenen-Sammlung` einfach das Spiel aus welches du spielen möchtest.
