@@ -21,7 +21,7 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "{0.0.1.00000000}.{ff37e6da-b85f-493d-9427-c51b2fa156f4}"
+            "device_id": "{0.0.1.00000000}.{677f0a31-3de5-4b08-9eeb-1cfffe7d4753}"
         },
         "sync": 0,
         "volume": 1.0
@@ -48,7 +48,7 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "{0.0.0.00000000}.{9bf0993e-6eb9-46d9-8e96-e6b584d84faa}"
+            "device_id": "{0.0.0.00000000}.{ab9fcb0d-4a1c-435e-b4b3-7143d6c67c00}"
         },
         "sync": 0,
         "volume": 1.0
@@ -474,16 +474,14 @@
                         "key": "OBS_KEY_NUM1"
                     }
                 ],
-                "libobs.hide_scene_item.LauncherFacecam": [],
+                "libobs.hide_scene_item.Facecam": [],
                 "libobs.hide_scene_item.clientStreamerName": [],
-                "libobs.hide_scene_item.currentSong": [],
                 "libobs.hide_scene_item.launcherChat": [],
                 "libobs.hide_scene_item.launcherOverlay FC": [],
                 "libobs.hide_scene_item.launcherOverlay No FC": [],
                 "libobs.hide_scene_item.lollauncher": [],
-                "libobs.show_scene_item.LauncherFacecam": [],
+                "libobs.show_scene_item.Facecam": [],
                 "libobs.show_scene_item.clientStreamerName": [],
-                "libobs.show_scene_item.currentSong": [],
                 "libobs.show_scene_item.launcherChat": [],
                 "libobs.show_scene_item.launcherOverlay FC": [],
                 "libobs.show_scene_item.launcherOverlay No FC": [],
@@ -501,7 +499,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 8,
+                "id_counter": 9,
                 "items": [
                     {
                         "align": 5,
@@ -517,11 +515,11 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 3,
-                        "locked": false,
-                        "name": "LauncherFacecam",
+                        "locked": true,
+                        "name": "Facecam",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 14.0,
+                            "y": 432.0
                         },
                         "private_settings": {
                             "color": "",
@@ -529,8 +527,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.2526041567325592,
+                            "y": 0.25277778506278992
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -552,8 +550,8 @@
                         "locked": true,
                         "name": "lollauncher",
                         "pos": {
-                            "x": 506.0,
-                            "y": 38.0
+                            "x": 499.0,
+                            "y": 36.0
                         },
                         "private_settings": {
                             "color": "",
@@ -561,8 +559,40 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.85750001668930054,
-                            "y": 0.85777777433395386
+                            "x": 0.86437499523162842,
+                            "y": 0.86444443464279175
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": true,
+                        "name": "launcherOverlay FC",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 6
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -598,38 +628,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": true,
-                        "name": "launcherOverlay FC",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 6
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
                     },
                     {
                         "align": 5,
@@ -694,38 +692,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 8,
-                        "locked": false,
-                        "name": "currentSong",
-                        "pos": {
-                            "x": 36.0,
-                            "y": 988.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 2
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.9411764144897461,
-                            "y": 1.9487179517745972
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
                     }
                 ]
             },
@@ -749,7 +715,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/Client Overlay with Facecam.png"
+                "file": "../../- Overlays/LoLClientOverlay.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -791,14 +757,19 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": true,
-            "name": "LauncherFacecam",
+            "name": "Facecam",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "active": false
+                "active": true,
+                "last_resolution": "1920x1080",
+                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&1675cddf&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
+                "res_type": 1,
+                "resolution": "1920x1080",
+                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&1675cddf&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
             },
             "sync": 0,
             "volume": 1.0
@@ -841,14 +812,14 @@
                     }
                 ],
                 "libobs.hide_scene_item.Bans": [],
+                "libobs.hide_scene_item.Facecam": [],
                 "libobs.hide_scene_item.champSelect Chat": [],
-                "libobs.hide_scene_item.champSelectFacecam": [],
                 "libobs.hide_scene_item.champSelectOverlay FC": [],
                 "libobs.hide_scene_item.champSelectOverlay No FC": [],
                 "libobs.hide_scene_item.lolChampSelect": [],
                 "libobs.show_scene_item.Bans": [],
+                "libobs.show_scene_item.Facecam": [],
                 "libobs.show_scene_item.champSelect Chat": [],
-                "libobs.show_scene_item.champSelectFacecam": [],
                 "libobs.show_scene_item.champSelectOverlay FC": [],
                 "libobs.show_scene_item.champSelectOverlay No FC": [],
                 "libobs.show_scene_item.lolChampSelect": []
@@ -865,7 +836,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 17,
+                "id_counter": 19,
                 "items": [
                     {
                         "align": 5,
@@ -893,8 +864,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.2000000476837158,
-                            "y": 1.2000000476837158
+                            "x": 1.2012499570846558,
+                            "y": 1.2011110782623291
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1235,12 +1206,12 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 16,
-                        "locked": false,
-                        "name": "champSelectFacecam",
+                        "id": 19,
+                        "locked": true,
+                        "name": "Facecam",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 367.0,
+                            "y": 776.0
                         },
                         "private_settings": {
                             "color": "",
@@ -1248,8 +1219,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.24322916567325592,
+                            "y": 0.24351851642131805
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1395,7 +1366,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/ChampSelect Overlay with Facecam.png"
+                "file": "../../- Overlays/LoLChampSelect.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -1417,7 +1388,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/Client Overlay without Facecam.png"
+                "file": "../../- Overlays/LoLClientOverlayNoFacecam.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -1439,7 +1410,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/ChampSelect Overlay without Facecam.png"
+                "file": "../../- Overlays/LoLChampSelectNoFacecam.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -1474,7 +1445,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 2,
+                "id_counter": 5,
                 "items": [
                     {
                         "align": 5,
@@ -1489,7 +1460,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 2,
+                        "id": 5,
                         "locked": true,
                         "name": "lolLoadingScreen",
                         "pos": {
@@ -1562,29 +1533,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/LoadingScreen Overlay.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "window_capture",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "lolLoadingScreen",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "window": "League of Legends (TM) Client:RiotWindowClass:League of Legends.exe"
+                "file": "../../- Overlays/LoLLoadingScreen.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -1602,9 +1551,9 @@
                         "key": "OBS_KEY_NUM4"
                     }
                 ],
+                "libobs.hide_scene_item.Facecam": [],
                 "libobs.hide_scene_item.blueSide": [],
                 "libobs.hide_scene_item.blueSide Score": [],
-                "libobs.hide_scene_item.ingameFacecam": [],
                 "libobs.hide_scene_item.ingameSpectate Overlay FC": [],
                 "libobs.hide_scene_item.ingameSpectateOverlay No FC": [],
                 "libobs.hide_scene_item.ingameStreamerName": [],
@@ -1612,9 +1561,9 @@
                 "libobs.hide_scene_item.lolIngame": [],
                 "libobs.hide_scene_item.redSide": [],
                 "libobs.hide_scene_item.redSide Score": [],
+                "libobs.show_scene_item.Facecam": [],
                 "libobs.show_scene_item.blueSide": [],
                 "libobs.show_scene_item.blueSide Score": [],
-                "libobs.show_scene_item.ingameFacecam": [],
                 "libobs.show_scene_item.ingameSpectate Overlay FC": [],
                 "libobs.show_scene_item.ingameSpectateOverlay No FC": [],
                 "libobs.show_scene_item.ingameStreamerName": [],
@@ -1635,7 +1584,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 14,
                 "items": [
                     {
                         "align": 5,
@@ -1650,7 +1599,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 1,
+                        "id": 13,
                         "locked": true,
                         "name": "lolIngame",
                         "pos": {
@@ -1682,9 +1631,9 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 10,
-                        "locked": false,
-                        "name": "ingameFacecam",
+                        "id": 14,
+                        "locked": true,
+                        "name": "Facecam",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1846,8 +1795,8 @@
                         "locked": true,
                         "name": "redSide Score",
                         "pos": {
-                            "x": 1491.0,
-                            "y": -11.0
+                            "x": 1380.0,
+                            "y": 39.0
                         },
                         "private_settings": {
                             "color": "",
@@ -1855,8 +1804,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.70588237047195435,
-                            "y": 0.69444441795349121
+                            "x": 0.69375002384185791,
+                            "y": 0.69999998807907104
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1878,8 +1827,8 @@
                         "locked": true,
                         "name": "redSide",
                         "pos": {
-                            "x": 1369.0,
-                            "y": 1.0
+                            "x": 1377.0,
+                            "y": 0.0
                         },
                         "private_settings": {
                             "color": "",
@@ -1910,8 +1859,8 @@
                         "locked": true,
                         "name": "blueSide Score",
                         "pos": {
-                            "x": 416.0,
-                            "y": -10.0
+                            "x": 455.0,
+                            "y": 40.833335876464844
                         },
                         "private_settings": {
                             "color": "",
@@ -1919,8 +1868,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.69230771064758301,
-                            "y": 0.69444441795349121
+                            "x": 0.68124997615814209,
+                            "y": 0.68000000715255737
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1942,7 +1891,7 @@
                         "locked": true,
                         "name": "blueSide",
                         "pos": {
-                            "x": 465.0,
+                            "x": 452.0,
                             "y": 0.0
                         },
                         "private_settings": {
@@ -1968,28 +1917,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "window_capture",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "lolIngame",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "window": "League of Legends (TM) Client:RiotWindowClass:League of Legends.exe"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
             "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
@@ -2001,7 +1928,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/IngameSpectate Overlay with Facecam.png"
+                "file": "../../- Overlays/LoLSpectateIngameOverlay.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -2023,7 +1950,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/IngameSpectate Overlay without Facecam.png"
+                "file": "../../- Overlays/LoLSpectateIngameOverlayNoFacecam.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -2063,7 +1990,7 @@
                 "opacity": 100,
                 "outline": true,
                 "outline_color": 4278190080,
-                "outline_size": 1,
+                "outline_size": 4,
                 "read_from_file": true,
                 "valign": "center"
             },
@@ -2088,7 +2015,12 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "align": "center",
+                "bk_opacity": 0,
+                "chatlog": false,
                 "color": 4292909312,
+                "extents": true,
+                "extents_cx": 160,
+                "extents_cy": 50,
                 "file": "../../- Scoreboard/blueSide Score.txt",
                 "font": {
                     "face": "Kanit Medium",
@@ -2096,9 +2028,10 @@
                     "size": 72,
                     "style": "Medium"
                 },
+                "opacity": 100,
                 "outline": true,
                 "outline_color": 4278190080,
-                "outline_size": 1,
+                "outline_size": 4,
                 "read_from_file": true,
                 "valign": "center"
             },
@@ -2137,7 +2070,7 @@
                 "opacity": 100,
                 "outline": true,
                 "outline_color": 4278190080,
-                "outline_size": 1,
+                "outline_size": 4,
                 "read_from_file": true,
                 "valign": "center"
             },
@@ -2163,6 +2096,9 @@
             "settings": {
                 "align": "center",
                 "color": 4281743053,
+                "extents": true,
+                "extents_cx": 160,
+                "extents_cy": 50,
                 "file": "../../- Scoreboard/redSide Score.txt",
                 "font": {
                     "face": "Kanit Medium",
@@ -2172,7 +2108,7 @@
                 },
                 "outline": true,
                 "outline_color": 4278190080,
-                "outline_size": 1,
+                "outline_size": 4,
                 "read_from_file": true,
                 "valign": "center"
             },
@@ -2479,60 +2415,6 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "dshow_input",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "champSelectFacecam",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "active": false
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "dshow_input",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "ingameFacecam",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "active": false
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
             "hotkeys": {},
             "id": "browser_source",
             "mixers": 0,
@@ -2581,7 +2463,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 2,
+                "id_counter": 3,
                 "items": [
                     {
                         "align": 5,
@@ -2737,19 +2619,49 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "window_capture",
+            "hotkeys": {
+                "hotkey_start": [],
+                "hotkey_stop": []
+            },
+            "id": "game_capture",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "currentSong",
+            "name": "lolLoadingScreen",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "window": ":ApplicationFrameWindow:explorer.exe"
+                "capture_mode": "window",
+                "window": "League of Legends (TM) Client:RiotWindowClass:League of Legends.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "hotkey_start": [],
+                "hotkey_stop": []
+            },
+            "id": "game_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "lolIngame",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_mode": "window",
+                "window": "League of Legends (TM) Client:RiotWindowClass:League of Legends.exe"
             },
             "sync": 0,
             "volume": 1.0
@@ -2788,7 +2700,7 @@
             "id": "obs_stinger_transition",
             "name": "HSA Transition",
             "settings": {
-                "path": "../../- Overlays/HSA OBS Transition.webm",
+                "path": "../../- Overlays/HSA-Transition.webm",
                 "tp_type": 1,
                 "transition_point": 75
             }
