@@ -28,7 +28,7 @@ Hast du eine Bestätigung erhalten, kannst du mittels folgener Chat-Kommandos de
 Im Installationsordner ist eine `Update.bat` Datei enthalten. Sollte es ein neues Update geben, so führe diese Datei bitte aus. Alle anderen selbsterstellten Szenen werden dabei gelöscht.
 
 ## Hotkeys
-Es sind standardmäßig 5 Hotkeys voreingestellt. Diese sind:
+Bei jedem Spiel sind Standardmäßig Hotkeys voreingestellt. Je nach Spiel können diese jedoch variieren. Hier sind beispielsweise die Hotkeys für League of Legends. Die Idle Szene ist dabei in allen Spielen mit der 0 (Zehnertastatur) belegt und die anderen danach in der Reihenfolge wie sie auch in OBS zu sehen sind.
 * `STRG + ALT + 0 (Zehnertastatur)` Idle Szene
 * `STRG + ALT + 1 (Zehnertastatur)` Launcher Szene
 * `STRG + ALT + 2 (Zehnertastatur)` ChampSelect Szene
