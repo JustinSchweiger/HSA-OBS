@@ -397,6 +397,171 @@
             },
             "sync": 0,
             "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.hide_scene_item.blueSide": [],
+                "libobs.hide_scene_item.blueSide Score": [],
+                "libobs.hide_scene_item.redSide": [],
+                "libobs.hide_scene_item.redSide Score": [],
+                "libobs.show_scene_item.blueSide": [],
+                "libobs.show_scene_item.blueSide Score": [],
+                "libobs.show_scene_item.redSide": [],
+                "libobs.show_scene_item.redSide Score": []
+            },
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scoreboard",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 1042,
+                "cy": 75,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": true,
+                        "name": "redSide Score",
+                        "pos": {
+                            "x": 928.0,
+                            "y": 39.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 3
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.69375002384185791,
+                            "y": 0.69999998807907104
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": true,
+                        "name": "redSide",
+                        "pos": {
+                            "x": 925.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 3
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.64999997615814209,
+                            "y": 0.64999997615814209
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": true,
+                        "name": "blueSide Score",
+                        "pos": {
+                            "x": 3.0,
+                            "y": 40.833335876464844
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 3
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.68124997615814209,
+                            "y": 0.68000000715255737
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": true,
+                        "name": "blueSide",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 3
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.67901235818862915,
+                            "y": 0.68055558204650879
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
         }
     ],
     "modules": {
@@ -479,12 +644,14 @@
                     }
                 ],
                 "libobs.hide_scene_item.Facecam": [],
+                "libobs.hide_scene_item.StreamLabsAlert": [],
                 "libobs.hide_scene_item.clientStreamerName": [],
                 "libobs.hide_scene_item.launcherChat": [],
                 "libobs.hide_scene_item.launcherOverlay FC": [],
                 "libobs.hide_scene_item.launcherOverlay No FC": [],
                 "libobs.hide_scene_item.lollauncher": [],
                 "libobs.show_scene_item.Facecam": [],
+                "libobs.show_scene_item.StreamLabsAlert": [],
                 "libobs.show_scene_item.clientStreamerName": [],
                 "libobs.show_scene_item.launcherChat": [],
                 "libobs.show_scene_item.launcherOverlay FC": [],
@@ -503,7 +670,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 9,
+                "id_counter": 10,
                 "items": [
                     {
                         "align": 5,
@@ -650,8 +817,8 @@
                         "locked": true,
                         "name": "launcherChat",
                         "pos": {
-                            "x": 702.0,
-                            "y": 827.142822265625
+                            "x": 681.0,
+                            "y": 825.0
                         },
                         "private_settings": {
                             "color": "",
@@ -659,8 +826,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.97166669368743896,
-                            "y": 0.97142857313156128
+                            "x": 0.99599999189376831,
+                            "y": 0.99599999189376831
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -693,6 +860,38 @@
                         "scale": {
                             "x": 1.1100000143051147,
                             "y": 1.109375
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 10,
+                        "locked": true,
+                        "name": "StreamLabsAlert",
+                        "pos": {
+                            "x": 861.0,
+                            "y": 243.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.2259999513626099,
+                            "y": 1.2266666889190674
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -801,7 +1000,7 @@
             "settings": {
                 "height": 250,
                 "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false",
-                "width": 1000
+                "width": 750
             },
             "sync": 0,
             "volume": 1.0
@@ -822,12 +1021,14 @@
                 ],
                 "libobs.hide_scene_item.Bans": [],
                 "libobs.hide_scene_item.Facecam": [],
+                "libobs.hide_scene_item.StreamLabsAlert": [],
                 "libobs.hide_scene_item.champSelect Chat": [],
                 "libobs.hide_scene_item.champSelectOverlay FC": [],
                 "libobs.hide_scene_item.champSelectOverlay No FC": [],
                 "libobs.hide_scene_item.lolChampSelect": [],
                 "libobs.show_scene_item.Bans": [],
                 "libobs.show_scene_item.Facecam": [],
+                "libobs.show_scene_item.StreamLabsAlert": [],
                 "libobs.show_scene_item.champSelect Chat": [],
                 "libobs.show_scene_item.champSelectOverlay FC": [],
                 "libobs.show_scene_item.champSelectOverlay No FC": [],
@@ -845,7 +1046,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 19,
+                "id_counter": 20,
                 "items": [
                     {
                         "align": 5,
@@ -1329,6 +1530,38 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 20,
+                        "locked": true,
+                        "name": "StreamLabsAlert",
+                        "pos": {
+                            "x": 652.0,
+                            "y": 363.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
                     }
                 ]
             },
@@ -1572,16 +1805,8 @@
                         "key": "OBS_KEY_A"
                     }
                 ],
-                "libobs.hide_scene_item.blueSide": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.blueSide Score": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.hide_scene_item.Scoreboard": [],
+                "libobs.hide_scene_item.StreamLabsAlert": [],
                 "libobs.hide_scene_item.ingameSpectate Overlay FC": [
                     {
                         "key": "OBS_KEY_A"
@@ -1599,31 +1824,13 @@
                     }
                 ],
                 "libobs.hide_scene_item.lolIngame": [],
-                "libobs.hide_scene_item.redSide": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.redSide Score": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
                 "libobs.show_scene_item.Facecam": [
                     {
                         "key": "OBS_KEY_A"
                     }
                 ],
-                "libobs.show_scene_item.blueSide": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.show_scene_item.blueSide Score": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.show_scene_item.Scoreboard": [],
+                "libobs.show_scene_item.StreamLabsAlert": [],
                 "libobs.show_scene_item.ingameSpectate Overlay FC": [
                     {
                         "key": "OBS_KEY_A"
@@ -1640,17 +1847,7 @@
                         "key": "OBS_KEY_A"
                     }
                 ],
-                "libobs.show_scene_item.lolIngame": [],
-                "libobs.show_scene_item.redSide": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.show_scene_item.redSide Score": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ]
+                "libobs.show_scene_item.lolIngame": []
             },
             "id": "scene",
             "mixers": 0,
@@ -1664,7 +1861,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 14,
+                "id_counter": 16,
                 "items": [
                     {
                         "align": 5,
@@ -1870,7 +2067,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "id": 8,
                         "locked": true,
                         "name": "redSide Score",
@@ -1902,7 +2099,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "id": 7,
                         "locked": true,
                         "name": "redSide",
@@ -1934,7 +2131,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "id": 5,
                         "locked": true,
                         "name": "blueSide Score",
@@ -1966,7 +2163,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "id": 4,
                         "locked": true,
                         "name": "blueSide",
@@ -1982,6 +2179,71 @@
                         "scale": {
                             "x": 0.67901235818862915,
                             "y": 0.68055558204650879
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 15,
+                        "locked": true,
+                        "name": "Scoreboard",
+                        "pos": {
+                            "x": 452.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "collapsed": true,
+                            "color": "",
+                            "color-preset": 3
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 16,
+                        "locked": true,
+                        "name": "StreamLabsAlert",
+                        "pos": {
+                            "x": 93.0,
+                            "y": 95.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2548,8 +2810,10 @@
                 ],
                 "libobs.hide_scene_item.IdleScreen Chat": [],
                 "libobs.hide_scene_item.IdleScreen Overlay": [],
+                "libobs.hide_scene_item.StreamLabsAlert": [],
                 "libobs.show_scene_item.IdleScreen Chat": [],
-                "libobs.show_scene_item.IdleScreen Overlay": []
+                "libobs.show_scene_item.IdleScreen Overlay": [],
+                "libobs.show_scene_item.StreamLabsAlert": []
             },
             "id": "scene",
             "mixers": 0,
@@ -2563,7 +2827,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 3,
+                "id_counter": 4,
                 "items": [
                     {
                         "align": 5,
@@ -2625,6 +2889,38 @@
                         "scale": {
                             "x": 1.184999942779541,
                             "y": 1.184999942779541
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": true,
+                        "name": "StreamLabsAlert",
+                        "pos": {
+                            "x": 1388.0,
+                            "y": 748.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2767,6 +3063,31 @@
             "settings": {
                 "capture_mode": "window",
                 "window": "League of Legends (TM) Client:RiotWindowClass:League of Legends.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "StreamLabsAlert",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "height": 300,
+                "url": "https://streamlabs.com/alert-box/v3/BD6344D445BAE693925A",
+                "width": 500
             },
             "sync": 0,
             "volume": 1.0
