@@ -35,12 +35,14 @@ Bei jedem Spiel sind Standardmäßig Hotkeys voreingestellt. Je nach Spiel könn
 * `STRG + ALT + 3 (Zehnertastatur)` LoadingScreen Szene
 * `STRG + ALT + 4 (Zehnertastatur)` IngameSpectate Szene
 
+In der neusten Version gibt es auch einen Hotkey für den Teamfight Ingame. Dieser ist mit der Taste `A` belegt. Drückt man die Taste, wird Ingame der Teamfight Modus aktiviert. Gleichzeitig werden in OBS alle Inhalte der IngameSzene ausgeblendet.
+
 ## Weiterverwendung
 Nur Mitglieder des HSA eSports dürfen das Layout verwenden.
 
 ## Enthaltene Spiele
 Derzeit enthaltene Spieloverlays sind:
-* `League of Legends`
+* `League of Legends Spectate Overlay`
 * `Apex Legends`
 
 Um zwischen den enthaltenen Spielen zu wechseln, wählst du in der oberen Menüleiste unter `Szenen-Sammlung` einfach das Spiel aus welches du spielen möchtest.
