@@ -15,3 +15,5 @@ con
 /config/obs-studio/basic/scenes/*.bak
 /aufnahmen/*
 /PortableGit/
+/Install
+*.md
