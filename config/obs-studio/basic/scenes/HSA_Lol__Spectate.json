@@ -14,7 +14,7 @@
         "id": "wasapi_input_capture",
         "mixers": 255,
         "monitoring_type": 0,
-        "muted": false,
+        "muted": true,
         "name": "Mic/Aux",
         "private_settings": {},
         "push-to-mute": false,
@@ -42,7 +42,7 @@
         "id": "wasapi_output_capture",
         "mixers": 255,
         "monitoring_type": 0,
-        "muted": false,
+        "muted": true,
         "name": "Desktop Audio",
         "private_settings": {},
         "push-to-mute": false,
@@ -718,7 +718,7 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 2,
-                        "locked": true,
+                        "locked": false,
                         "name": "lollauncher",
                         "pos": {
                             "x": 499.0,
@@ -1785,11 +1785,7 @@
                         "key": "OBS_KEY_A"
                     }
                 ],
-                "libobs.hide_scene_item.StreamLabsAlert": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.hide_scene_item.StreamLabsAlert": [],
                 "libobs.hide_scene_item.ingameSpectate Overlay FC": [
                     {
                         "key": "OBS_KEY_A"
@@ -1817,11 +1813,7 @@
                         "key": "OBS_KEY_A"
                     }
                 ],
-                "libobs.show_scene_item.StreamLabsAlert": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.show_scene_item.StreamLabsAlert": [],
                 "libobs.show_scene_item.ingameSpectate Overlay FC": [
                     {
                         "key": "OBS_KEY_A"
@@ -2780,6 +2772,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 300,
+                "shutdown": true,
                 "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false"
             },
             "sync": 0,
@@ -2963,6 +2956,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 634,
+                "shutdown": true,
                 "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false"
             },
             "sync": 0,
@@ -3077,6 +3071,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 300,
+                "shutdown": true,
                 "url": "https://streamlabs.com/alert-box/v3/BD6344D445BAE693925A",
                 "width": 500
             },
@@ -3102,6 +3097,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 300,
+                "shutdown": true,
                 "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false",
                 "width": 1250
             },

@@ -55,8 +55,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "Launcher",
-    "current_scene": "Launcher",
+    "current_program_scene": "IdleScreen",
+    "current_scene": "IdleScreen",
     "current_transition": "HSA Transition",
     "groups": [],
     "modules": {
@@ -163,6 +163,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 300,
+                "shutdown": true,
                 "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false",
                 "width": 1250
             },
@@ -188,6 +189,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 300,
+                "shutdown": true,
                 "url": "https://streamlabs.com/alert-box/v3/BD6344D445BAE693925A",
                 "width": 500
             },
@@ -267,6 +269,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 634,
+                "shutdown": true,
                 "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false"
             },
             "sync": 0,
@@ -666,7 +669,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -698,7 +701,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -730,7 +733,7 @@
                             "y": 0.70512819290161133
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1133,7 +1136,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1165,7 +1168,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1197,7 +1200,7 @@
                             "y": 1.109375
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
