@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "key": "",
+        "server": "rtmp://live-fra.twitch.tv/app",
+        "service": "Twitch"
+    },
+    "type": "rtmp_common"
+}
