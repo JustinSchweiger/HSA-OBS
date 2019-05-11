@@ -55,8 +55,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "IdleScreen",
-    "current_scene": "IdleScreen",
+    "current_program_scene": "Launcher",
+    "current_scene": "Launcher",
     "current_transition": "HSA Transition",
     "groups": [
         {
@@ -646,17 +646,19 @@
                 "libobs.hide_scene_item.Facecam": [],
                 "libobs.hide_scene_item.StreamLabsAlert": [],
                 "libobs.hide_scene_item.clientStreamerName": [],
-                "libobs.hide_scene_item.launcherChat": [],
                 "libobs.hide_scene_item.launcherOverlay FC": [],
                 "libobs.hide_scene_item.launcherOverlay No FC": [],
                 "libobs.hide_scene_item.lollauncher": [],
+                "libobs.hide_scene_item.slideshow": [],
+                "libobs.hide_scene_item.twitchChat": [],
                 "libobs.show_scene_item.Facecam": [],
                 "libobs.show_scene_item.StreamLabsAlert": [],
                 "libobs.show_scene_item.clientStreamerName": [],
-                "libobs.show_scene_item.launcherChat": [],
                 "libobs.show_scene_item.launcherOverlay FC": [],
                 "libobs.show_scene_item.launcherOverlay No FC": [],
-                "libobs.show_scene_item.lollauncher": []
+                "libobs.show_scene_item.lollauncher": [],
+                "libobs.show_scene_item.slideshow": [],
+                "libobs.show_scene_item.twitchChat": []
             },
             "id": "scene",
             "mixers": 0,
@@ -670,8 +672,40 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 15,
                 "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": true,
+                        "name": "lollauncher",
+                        "pos": {
+                            "x": 499.0,
+                            "y": 36.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.86437499523162842,
+                            "y": 0.86444443464279175
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -717,12 +751,12 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 2,
-                        "locked": false,
-                        "name": "lollauncher",
+                        "id": 14,
+                        "locked": true,
+                        "name": "slideshow",
                         "pos": {
-                            "x": 499.0,
-                            "y": 36.0
+                            "x": 20.0,
+                            "y": 808.0
                         },
                         "private_settings": {
                             "color": "",
@@ -730,8 +764,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.86437499523162842,
-                            "y": 0.86444443464279175
+                            "x": 0.234375,
+                            "y": 0.23425926268100739
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -877,12 +911,12 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 11,
+                        "id": 15,
                         "locked": true,
-                        "name": "launcherChat",
+                        "name": "twitchChat",
                         "pos": {
-                            "x": 686.0,
-                            "y": 819.0
+                            "x": 985.0,
+                            "y": 822.0
                         },
                         "private_settings": {
                             "color": "",
@@ -890,8 +924,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.85874998569488525,
-                            "y": 0.86000001430511475
+                            "x": 0.84375,
+                            "y": 0.84333330392837524
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1908,7 +1942,7 @@
                             "y": 0.15462963283061981
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1972,7 +2006,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -2004,7 +2038,7 @@
                             "y": 0.70512819290161133
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -2036,7 +2070,7 @@
                             "y": 0.72972971200942993
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -2197,7 +2231,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -3084,12 +3118,51 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
+            "hotkeys": {
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
+            },
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "slideshow",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": [
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "C:/Users/Justi/Desktop/HSAOBSS/- Overlays/Diashow"
+                    }
+                ],
+                "playback_behavior": "stop_restart",
+                "slide_time": 10000,
+                "transition": "fade",
+                "use_custom_size": "16:9"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
             "hotkeys": {},
             "id": "browser_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "launcherChat",
+            "name": "twitchChat",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3097,9 +3170,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 300,
-                "shutdown": true,
                 "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false",
-                "width": 1250
+                "width": 900
             },
             "sync": 0,
             "volume": 1.0
@@ -3140,7 +3212,7 @@
             "settings": {
                 "path": "../../- Overlays/HSA-Transition.webm",
                 "tp_type": 1,
-                "transition_point": 75
+                "transition_point": 150
             }
         }
     ]
