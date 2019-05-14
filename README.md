@@ -2,10 +2,12 @@
 ## Installation
 * [Download](Install/HSAOBS.zip) des Hauptordners.
 * Entpacke den Ordner an der von dir gewünschten Stelle (z.B. C:/HSAOBS).
-* Starte die darin enthaltene `Install.bat` und folge den Anweisungen auf dem Bildschirm.
-* Wurde alles erfolgreich installiert, sollte sich OBS automatisch öffnen.
-* Solltest du beim starten die Fehlermeldung `MSVCP120.dll nicht gefunden` erhalten, dann starte zusätzlich die Datei `Install-vcredist.bat`
-* Um OBS dann in Zukunft schneller starten zu können, legt euch eine Verknüpfung auf dem Desktop an welche zur Datei `StartHSA-OBS.bat` führt.
+* Starte den Installer und folge den Anweisungen im Programm.
+* Sobald die Checklist abgearbeitet wurde, öffne die Datei "HSAnhalt eSports - OBS.exe".
+* Trage dort deinen Namen ein (insofern du eine Facecam besitzt)
+* Um OBS zu starten, klicke auf den Button "Start OBS"
+* In OBS musst du dann falls du eine Facecam besitzt, diese noch richtig einstellen und hinzufügen. Verändere Dabei bitte nicht die Reihenfolge der einzelnen Elemente in den Szenen.
+* Zu guter letzt musst du noch den Streamkey eintragen und kannst dann anfangen zu streamen.
 
 ## Erläuterung
 Die Inhalte einer Szene sind mit verschiedenen Farben gekennzeichnet. Jede Farbe hat eine bestimmte Bedeutung welche du hier genauer nachlesen kannst:
@@ -18,7 +20,7 @@ Die Inhalte einer Szene sind mit verschiedenen Farben gekennzeichnet. Jede Farbe
 Grundsätzlich solltest du die Reihenfolge der einzelnen Inhalte einer Szene nicht verändern, da es so zu Anzeigeproblemen kommen könnte. Hast du etwas aus versehen geändert und kannst es nicht wieder herstellen, so kannst du jederzeit alles neu herunterladen.
 
 ## Streamkey
-Bevor du anfangen kannst zu streamen, benötigst du erst den Streamkey des HSAeSports Kanals. Um diesen zu erhalten, schreibst du eine E-Mail an `esports-anhalt@gmx.de`
+Bevor du anfangen kannst zu streamen, benötigst du erst den Streamkey des HSAnhalt eSports Kanals. Um diesen zu erhalten, schreibst du eine E-Mail an `esports@hs-anhalt.de` oder meldest dich bei uns im Discord Server: https://discordapp.com/invite/ZUm5v7Y
 
 Hast du eine Bestätigung erhalten, kannst du mittels folgener Chat-Kommandos den Titel und das Spiel ändern:
 * `!Game [Spiel]` Ändert das Spiel
