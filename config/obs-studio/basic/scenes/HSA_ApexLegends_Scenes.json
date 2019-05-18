@@ -55,8 +55,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "IdleScreen",
-    "current_scene": "IdleScreen",
+    "current_program_scene": "Launcher",
+    "current_scene": "Launcher",
     "current_transition": "HSA Transition",
     "groups": [],
     "modules": {
@@ -125,18 +125,21 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "window_capture",
+            "id": "browser_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "apexLauncher",
+            "name": "StreamLabsAlert",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "window": "Apex Legends:Respawn001:r5apex.exe"
+                "height": 300,
+                "shutdown": true,
+                "url": "https://streamlabs.com/alert-box/v3/BD6344D445BAE693925A",
+                "width": 500
             },
             "sync": 0,
             "volume": 1.0
@@ -148,154 +151,20 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
+            "id": "browser_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "idleScreen Overlay",
+            "name": "idleChat",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/IdleScreen.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [
-                    {
-                        "alt": true,
-                        "control": true,
-                        "key": "OBS_KEY_NUM0"
-                    }
-                ],
-                "libobs.hide_scene_item.StreamLabsAlert": [],
-                "libobs.hide_scene_item.idleChat": [],
-                "libobs.hide_scene_item.idleScreen Overlay": [],
-                "libobs.show_scene_item.StreamLabsAlert": [],
-                "libobs.show_scene_item.idleChat": [],
-                "libobs.show_scene_item.idleScreen Overlay": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "IdleScreen",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 3,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": true,
-                        "name": "idleScreen Overlay",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 4
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": true,
-                        "name": "idleChat",
-                        "pos": {
-                            "x": 67.0,
-                            "y": 64.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 4
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.184999942779541,
-                            "y": 1.1845425367355347
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": true,
-                        "name": "StreamLabsAlert",
-                        "pos": {
-                            "x": 1380.0,
-                            "y": 752.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 4
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
+                "height": 634,
+                "shutdown": true,
+                "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false"
             },
             "sync": 0,
             "volume": 1.0
@@ -311,7 +180,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "launcherStreamerName",
+            "name": "ingameStreamerName",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -321,7 +190,7 @@
                 "align": "center",
                 "extents": true,
                 "extents_cx": 300,
-                "extents_cy": 70,
+                "extents_cy": 61,
                 "file": "../../- Scoreboard/Streamer Name.txt",
                 "font": {
                     "face": "Norwester",
@@ -329,9 +198,10 @@
                     "size": 72,
                     "style": "Regular"
                 },
+                "opacity": 100,
                 "outline": true,
                 "outline_color": 4278190080,
-                "outline_size": 6,
+                "outline_size": 5,
                 "read_from_file": true,
                 "valign": "center"
             },
@@ -344,246 +214,19 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [
-                    {
-                        "alt": true,
-                        "control": true,
-                        "key": "OBS_KEY_NUM2"
-                    }
-                ],
-                "libobs.hide_scene_item.ApexIngame": [],
-                "libobs.hide_scene_item.Facecam": [],
-                "libobs.hide_scene_item.StreamLabsAlert": [],
-                "libobs.hide_scene_item.apexIngameOverlay FC": [],
-                "libobs.hide_scene_item.ingameStreamerName": [],
-                "libobs.show_scene_item.ApexIngame": [],
-                "libobs.show_scene_item.Facecam": [],
-                "libobs.show_scene_item.StreamLabsAlert": [],
-                "libobs.show_scene_item.apexIngameOverlay FC": [],
-                "libobs.show_scene_item.ingameStreamerName": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Ingame",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 6,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": true,
-                        "name": "ApexIngame",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 4
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 5,
-                        "locked": false,
-                        "name": "Facecam",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 2
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": true,
-                        "name": "apexIngameOverlay FC",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 6
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": true,
-                        "name": "ingameStreamerName",
-                        "pos": {
-                            "x": 1625.0,
-                            "y": 840.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 3
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.81000000238418579,
-                            "y": 0.8095238208770752
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 6,
-                        "locked": true,
-                        "name": "StreamLabsAlert",
-                        "pos": {
-                            "x": 677.0,
-                            "y": 405.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 4
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
             "hotkeys": {},
             "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "launcherOverlay NoFC",
+            "name": "apexIngameOverlay FC",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/ApexLegends Launcher Overlay Without Facecam.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "launcherOverlay FC",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "../../- Overlays/ApexLegends Launcher Overlay With Facecam.png"
+                "file": "../../- Overlays/ApexLegends IngameOverlay FC.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -595,22 +238,50 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
+                "hotkey_start": [],
+                "hotkey_stop": []
             },
-            "id": "dshow_input",
-            "mixers": 255,
+            "id": "game_capture",
+            "mixers": 0,
             "monitoring_type": 0,
-            "muted": true,
-            "name": "Facecam",
+            "muted": false,
+            "name": "ApexIngame",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "settings": {},
+            "settings": {
+                "capture_mode": "window",
+                "window": "Apex Legends:Respawn001:r5apex.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "launcherChat",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "fps": 30,
+                "height": 550,
+                "shutdown": true,
+                "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false",
+                "width": 375
+            },
             "sync": 0,
             "volume": 1.0
         },
@@ -892,24 +563,23 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "browser_source",
-            "mixers": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
             "monitoring_type": 0,
-            "muted": false,
-            "name": "launcherChat",
+            "muted": true,
+            "name": "Facecam",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "settings": {
-                "fps": 30,
-                "height": 550,
-                "shutdown": true,
-                "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false",
-                "width": 375
-            },
+            "settings": {},
             "sync": 0,
             "volume": 1.0
         },
@@ -919,23 +589,19 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "hotkey_start": [],
-                "hotkey_stop": []
-            },
-            "id": "game_capture",
+            "hotkeys": {},
+            "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "ApexIngame",
+            "name": "launcherOverlay FC",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_mode": "window",
-                "window": "Apex Legends:Respawn001:r5apex.exe"
+                "file": "../../- Overlays/ApexLegends Launcher Overlay With Facecam.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -951,14 +617,218 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "apexIngameOverlay FC",
+            "name": "launcherOverlay NoFC",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/ApexLegends IngameOverlay FC.png"
+                "file": "../../- Overlays/ApexLegends Launcher Overlay Without Facecam.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM2"
+                    }
+                ],
+                "libobs.hide_scene_item.ApexIngame": [],
+                "libobs.hide_scene_item.Facecam": [],
+                "libobs.hide_scene_item.StreamLabsAlert": [],
+                "libobs.hide_scene_item.apexIngameOverlay FC": [],
+                "libobs.hide_scene_item.ingameStreamerName": [],
+                "libobs.show_scene_item.ApexIngame": [],
+                "libobs.show_scene_item.Facecam": [],
+                "libobs.show_scene_item.StreamLabsAlert": [],
+                "libobs.show_scene_item.apexIngameOverlay FC": [],
+                "libobs.show_scene_item.ingameStreamerName": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Ingame",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 6,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": true,
+                        "name": "ApexIngame",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Facecam",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 2
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": true,
+                        "name": "apexIngameOverlay FC",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 6
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "ingameStreamerName",
+                        "pos": {
+                            "x": 1625.0,
+                            "y": 840.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 3
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.81000000238418579,
+                            "y": 0.8095238208770752
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": true,
+                        "name": "StreamLabsAlert",
+                        "pos": {
+                            "x": 677.0,
+                            "y": 405.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
             },
             "sync": 0,
             "volume": 1.0
@@ -974,7 +844,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "ingameStreamerName",
+            "name": "launcherStreamerName",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -984,7 +854,7 @@
                 "align": "center",
                 "extents": true,
                 "extents_cx": 300,
-                "extents_cy": 61,
+                "extents_cy": 70,
                 "file": "../../- Scoreboard/Streamer Name.txt",
                 "font": {
                     "face": "Norwester",
@@ -992,10 +862,9 @@
                     "size": 72,
                     "style": "Regular"
                 },
-                "opacity": 100,
                 "outline": true,
                 "outline_color": 4278190080,
-                "outline_size": 5,
+                "outline_size": 6,
                 "read_from_file": true,
                 "valign": "center"
             },
@@ -1008,21 +877,132 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "browser_source",
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM0"
+                    }
+                ],
+                "libobs.hide_scene_item.StreamLabsAlert": [],
+                "libobs.hide_scene_item.idleChat": [],
+                "libobs.hide_scene_item.idleScreen Overlay": [],
+                "libobs.show_scene_item.StreamLabsAlert": [],
+                "libobs.show_scene_item.idleChat": [],
+                "libobs.show_scene_item.idleScreen Overlay": []
+            },
+            "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "idleChat",
+            "name": "IdleScreen",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "height": 634,
-                "shutdown": true,
-                "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false"
+                "custom_size": false,
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": true,
+                        "name": "idleScreen Overlay",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": true,
+                        "name": "idleChat",
+                        "pos": {
+                            "x": 67.0,
+                            "y": 64.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.184999942779541,
+                            "y": 1.1845425367355347
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "StreamLabsAlert",
+                        "pos": {
+                            "x": 1380.0,
+                            "y": 752.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
             },
             "sync": 0,
             "volume": 1.0
@@ -1034,21 +1014,41 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "browser_source",
+            "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "StreamLabsAlert",
+            "name": "idleScreen Overlay",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "height": 300,
-                "shutdown": true,
-                "url": "https://streamlabs.com/alert-box/v3/BD6344D445BAE693925A",
-                "width": 500
+                "file": "../../- Overlays/IdleScreen.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "apexLauncher",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "window": "Apex Legends:Respawn001:r5apex.exe"
             },
             "sync": 0,
             "volume": 1.0
