@@ -58,13 +58,13 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "default"
+            "device_id": "{0.0.0.00000000}.{b47e6f0c-1d17-4b2e-abc7-3885098ed25f}"
         },
         "sync": 0,
-        "volume": 0.85737496614456177
+        "volume": 1.0
     },
-    "current_program_scene": "IdleScreen",
-    "current_scene": "IdleScreen",
+    "current_program_scene": "IngameSpectate",
+    "current_scene": "IngameSpectate",
     "current_transition": "HSA Transition",
     "groups": [
         {
@@ -74,11 +74,13 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
+                "libobs.hide_scene_item.Scoreboard Overlay": [],
                 "libobs.hide_scene_item.blueSide": [],
                 "libobs.hide_scene_item.blueSide Score": [],
                 "libobs.hide_scene_item.ingameTitleMessage": [],
                 "libobs.hide_scene_item.redSide": [],
                 "libobs.hide_scene_item.redSide Score": [],
+                "libobs.show_scene_item.Scoreboard Overlay": [],
                 "libobs.show_scene_item.blueSide": [],
                 "libobs.show_scene_item.blueSide Score": [],
                 "libobs.show_scene_item.ingameTitleMessage": [],
@@ -97,10 +99,42 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": true,
-                "cx": 1128,
-                "cy": 860,
+                "cx": 1920,
+                "cy": 1080,
                 "id_counter": 0,
                 "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": true,
+                        "name": "Scoreboard Overlay",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -118,7 +152,7 @@
                         "locked": true,
                         "name": "redSide Score",
                         "pos": {
-                            "x": 1085.875,
+                            "x": 1495.0,
                             "y": 2.0
                         },
                         "private_settings": {
@@ -150,7 +184,7 @@
                         "locked": true,
                         "name": "redSide",
                         "pos": {
-                            "x": 945.875,
+                            "x": 1355.0,
                             "y": 0.0
                         },
                         "private_settings": {
@@ -182,7 +216,7 @@
                         "locked": true,
                         "name": "blueSide Score",
                         "pos": {
-                            "x": 0.0,
+                            "x": 409.125,
                             "y": 2.0
                         },
                         "private_settings": {
@@ -214,7 +248,7 @@
                         "locked": true,
                         "name": "blueSide",
                         "pos": {
-                            "x": 52.875,
+                            "x": 462.0,
                             "y": 0.0
                         },
                         "private_settings": {
@@ -246,7 +280,7 @@
                         "locked": true,
                         "name": "ingameTitleMessage",
                         "pos": {
-                            "x": 208.875,
+                            "x": 618.0,
                             "y": 787.0
                         },
                         "private_settings": {
@@ -671,6 +705,29 @@
         }
     ],
     "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Controls Overlay",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "../../- Overlays/LoL Spectate Controls Cover.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
@@ -1557,7 +1614,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/Justi/Documents/HSAOBS/- Overlays/LolSpectateFacecam.png"
+                "file": "../../- Overlays/LolSpectateFacecam.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -1573,14 +1630,14 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "ingameSpectate Overlay",
+            "name": "Scoreboard Overlay",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../- Overlays/LoLSpectateIngameOverlay.png"
+                "file": "../../- Overlays/LoL Spectate Scoreboard Overlay.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -1599,59 +1656,19 @@
                         "key": "OBS_KEY_NUM4"
                     }
                 ],
-                "libobs.hide_scene_item.Facecam": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.Facecam Overlay": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.Scoreboard": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.hide_scene_item.Controls Overlay": [],
+                "libobs.hide_scene_item.Facecam": [],
+                "libobs.hide_scene_item.Facecam Overlay": [],
+                "libobs.hide_scene_item.Scoreboard": [],
                 "libobs.hide_scene_item.StreamLabsAlert": [],
-                "libobs.hide_scene_item.ingameSpectate Overlay": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.ingameStreamerName": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.hide_scene_item.ingameStreamerName": [],
                 "libobs.hide_scene_item.lolIngame": [],
-                "libobs.show_scene_item.Facecam": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.show_scene_item.Facecam Overlay": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.show_scene_item.Scoreboard": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.show_scene_item.Controls Overlay": [],
+                "libobs.show_scene_item.Facecam": [],
+                "libobs.show_scene_item.Facecam Overlay": [],
+                "libobs.show_scene_item.Scoreboard": [],
                 "libobs.show_scene_item.StreamLabsAlert": [],
-                "libobs.show_scene_item.ingameSpectate Overlay": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.show_scene_item.ingameStreamerName": [
-                    {
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.show_scene_item.ingameStreamerName": [],
                 "libobs.show_scene_item.lolIngame": []
             },
             "id": "scene",
@@ -1666,7 +1683,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 16,
+                "id_counter": 17,
                 "items": [
                     {
                         "align": 5,
@@ -1728,38 +1745,6 @@
                         "scale": {
                             "x": 0.15468749403953552,
                             "y": 0.15462963283061981
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": true,
-                        "name": "ingameSpectate Overlay",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 6
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1841,12 +1826,76 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
+                        "id": 17,
+                        "locked": true,
+                        "name": "Controls Overlay",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
                         "id": 16,
                         "locked": true,
                         "name": "StreamLabsAlert",
                         "pos": {
                             "x": 93.0,
                             "y": 95.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 2,
+                        "locked": true,
+                        "name": "Scoreboard Overlay",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "private_settings": {
                             "color": "",
@@ -2037,7 +2086,7 @@
                         "locked": true,
                         "name": "Scoreboard",
                         "pos": {
-                            "x": 409.125,
+                            "x": 0.0,
                             "y": 0.0
                         },
                         "private_settings": {
@@ -2768,7 +2817,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
