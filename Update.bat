@@ -1,2 +1,3 @@
 timeout /t 2
-start "" "PortableGit/bin/sh.exe" -c "git fetch --all && git reset --hard origin/master"
+start /wait "Update HSA-OBS" "PortableGit/bin/sh.exe" -c "git fetch origin master"
+start /wait "Update HSA-OBS" "PortableGit/bin/sh.exe" -c "git reset --hard origin/master"
