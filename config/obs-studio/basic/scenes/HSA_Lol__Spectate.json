@@ -33,7 +33,7 @@
             "device_id": "default"
         },
         "sync": 0,
-        "volume": 0.49303889274597168
+        "volume": 1.0
     },
     "DesktopAudioDevice1": {
         "balance": 0.5,
@@ -58,7 +58,7 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "{0.0.0.00000000}.{b47e6f0c-1d17-4b2e-abc7-3885098ed25f}"
+            "device_id": "default"
         },
         "sync": 0,
         "volume": 1.0
@@ -638,6 +638,159 @@
             },
             "sync": 0,
             "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.hide_scene_item.blueSide": [],
+                "libobs.hide_scene_item.blueSide Score": [],
+                "libobs.hide_scene_item.redSide": [],
+                "libobs.hide_scene_item.redSide Score": [],
+                "libobs.show_scene_item.blueSide": [],
+                "libobs.show_scene_item.blueSide Score": [],
+                "libobs.show_scene_item.redSide": [],
+                "libobs.show_scene_item.redSide Score": []
+            },
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "ScoreboardChampSelect",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 1889,
+                "cy": 64,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 24,
+                        "locked": false,
+                        "name": "blueSide",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 4.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 25,
+                        "locked": false,
+                        "name": "blueSide Score",
+                        "pos": {
+                            "x": 398.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 26,
+                        "locked": false,
+                        "name": "redSide",
+                        "pos": {
+                            "x": 1689.0,
+                            "y": 2.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 27,
+                        "locked": false,
+                        "name": "redSide Score",
+                        "pos": {
+                            "x": 1420.0,
+                            "y": 2.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
         }
     ],
     "modules": {
@@ -705,6 +858,140 @@
         }
     ],
     "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Facecam",
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "last_resolution": "1920x1080",
+                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&1675cddf&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
+                "res_type": 1,
+                "resolution": "1920x1080",
+                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&1675cddf&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "FacecamOverlay",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "../../- Overlays/LolSpectateFacecam.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "ingameStreamerName",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "extents": true,
+                "extents_cx": 286,
+                "extents_cy": 47,
+                "file": "../../- Scoreboard/Streamer Name.txt",
+                "font": {
+                    "face": "Norwester",
+                    "flags": 0,
+                    "size": 48,
+                    "style": "Regular"
+                },
+                "opacity": 100,
+                "outline": true,
+                "outline_color": 4278190080,
+                "outline_size": 5,
+                "read_from_file": true,
+                "valign": "center"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "idleScreen Message",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "chatlog": false,
+                "extents": false,
+                "extents_cy": 100,
+                "file": "../../- Scoreboard/idleScreenMessage.txt",
+                "font": {
+                    "face": "Kanit Medium",
+                    "flags": 0,
+                    "size": 100,
+                    "style": "Medium"
+                },
+                "outline": true,
+                "outline_color": 4278190080,
+                "outline_size": 5,
+                "read_from_file": true,
+                "valign": "center"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
@@ -810,10 +1097,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "height": 300,
+                "height": 1201,
                 "shutdown": true,
-                "url": "https://streamlabs.com/alert-box/v3/BD6344D445BAE693925A",
-                "width": 500
+                "url": "https://streamlabs.com/alert-box/v3/BD6344D445BAE693925A?follows=1&subscriptions=1&resubs=1&donations=1&hosts=1&bits=1&raids=1&redemptions=1&facemaskdonations=1",
+                "width": 1656
             },
             "sync": 0,
             "volume": 1.0
@@ -981,10 +1268,12 @@
                 "libobs.hide_scene_item.IdleScreen Chat": [],
                 "libobs.hide_scene_item.IdleScreen Overlay": [],
                 "libobs.hide_scene_item.StreamLabsAlert": [],
+                "libobs.hide_scene_item.idleScreen Message": [],
                 "libobs.hide_scene_item.particles": [],
                 "libobs.show_scene_item.IdleScreen Chat": [],
                 "libobs.show_scene_item.IdleScreen Overlay": [],
                 "libobs.show_scene_item.StreamLabsAlert": [],
+                "libobs.show_scene_item.idleScreen Message": [],
                 "libobs.show_scene_item.particles": []
             },
             "id": "scene",
@@ -999,7 +1288,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 11,
                 "items": [
                     {
                         "align": 5,
@@ -1082,8 +1371,8 @@
                         "locked": true,
                         "name": "StreamLabsAlert",
                         "pos": {
-                            "x": 1388.0,
-                            "y": 748.0
+                            "x": 132.0,
+                            "y": -60.5
                         },
                         "private_settings": {
                             "color": "",
@@ -1128,6 +1417,38 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 11,
+                        "locked": true,
+                        "name": "idleScreen Message",
+                        "pos": {
+                            "x": 62.0,
+                            "y": 870.0
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 3
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.3942731618881226,
+                            "y": 1.3962264060974121
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
                     }
                 ]
             },
@@ -1154,7 +1475,8 @@
             "settings": {
                 "height": 300,
                 "shutdown": true,
-                "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false"
+                "url": "https://www.nightdev.com/hosted/obschat/?theme=s0n0s_1440&channel=hsaesports&fade=false&bot_activity=false&prevent_clipping=false",
+                "width": 800
             },
             "sync": 0,
             "volume": 1.0
@@ -1438,45 +1760,6 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "ingameStreamerName",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "center",
-                "extents": true,
-                "extents_cx": 400,
-                "extents_cy": 82,
-                "file": "../../- Scoreboard/Streamer Name.txt",
-                "font": {
-                    "face": "Norwester",
-                    "flags": 0,
-                    "size": 72,
-                    "style": "Regular"
-                },
-                "opacity": 100,
-                "outline": true,
-                "outline_color": 4278190080,
-                "outline_size": 5,
-                "read_from_file": true,
-                "valign": "center"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
             "name": "redSide Score",
             "private_settings": {},
             "push-to-mute": false,
@@ -1641,29 +1924,6 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Facecam Overlay",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "../../- Overlays/LolSpectateFacecam.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
             "name": "Scoreboard Overlay",
             "private_settings": {},
             "push-to-mute": false,
@@ -1696,13 +1956,17 @@
                     }
                 ],
                 "libobs.hide_scene_item.Facecam": [],
-                "libobs.hide_scene_item.Facecam Overlay": [],
+                "libobs.hide_scene_item.FacecamOverlay": [],
                 "libobs.hide_scene_item.Scoreboard": [
                     {
                         "key": "OBS_KEY_A"
                     }
                 ],
-                "libobs.hide_scene_item.StreamLabsAlert": [],
+                "libobs.hide_scene_item.StreamLabsAlert": [
+                    {
+                        "key": "OBS_KEY_A"
+                    }
+                ],
                 "libobs.hide_scene_item.ingameStreamerName": [],
                 "libobs.hide_scene_item.lolIngame": [],
                 "libobs.show_scene_item.Controls Overlay": [
@@ -1711,13 +1975,17 @@
                     }
                 ],
                 "libobs.show_scene_item.Facecam": [],
-                "libobs.show_scene_item.Facecam Overlay": [],
+                "libobs.show_scene_item.FacecamOverlay": [],
                 "libobs.show_scene_item.Scoreboard": [
                     {
                         "key": "OBS_KEY_A"
                     }
                 ],
-                "libobs.show_scene_item.StreamLabsAlert": [],
+                "libobs.show_scene_item.StreamLabsAlert": [
+                    {
+                        "key": "OBS_KEY_A"
+                    }
+                ],
                 "libobs.show_scene_item.ingameStreamerName": [],
                 "libobs.show_scene_item.lolIngame": []
             },
@@ -1785,7 +2053,7 @@
                         "name": "Facecam",
                         "pos": {
                             "x": 1344.0,
-                            "y": 868.179443359375
+                            "y": 868.0
                         },
                         "private_settings": {
                             "color": "",
@@ -1793,11 +2061,11 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.15468749403953552,
-                            "y": 0.15462963283061981
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1814,7 +2082,7 @@
                         "group_item_backup": false,
                         "id": 3,
                         "locked": true,
-                        "name": "Facecam Overlay",
+                        "name": "FacecamOverlay",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1829,7 +2097,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1849,7 +2117,7 @@
                         "name": "ingameStreamerName",
                         "pos": {
                             "x": 1356.0,
-                            "y": 1020.179443359375
+                            "y": 1022.0
                         },
                         "private_settings": {
                             "color": "",
@@ -1857,11 +2125,11 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.71126759052276611,
-                            "y": 0.70512819290161133
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1893,7 +2161,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1912,8 +2180,8 @@
                         "locked": true,
                         "name": "StreamLabsAlert",
                         "pos": {
-                            "x": 93.0,
-                            "y": 95.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "private_settings": {
                             "color": "",
@@ -1921,8 +2189,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.54830920696258545,
+                            "y": 0.54870939254760742
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2150,7 +2418,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -2293,7 +2561,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "champSelectOverlay No FC",
+            "name": "champSelectOverlayNoFC",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2316,7 +2584,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "launcherOverlay No FC",
+            "name": "launcherOverlayNoFC",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2339,7 +2607,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "champSelectOverlay FC",
+            "name": "champSelectOverlayFC",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2391,20 +2659,22 @@
                 ],
                 "libobs.hide_scene_item.Bans": [],
                 "libobs.hide_scene_item.Facecam": [],
+                "libobs.hide_scene_item.ScoreboardChampSelect": [],
                 "libobs.hide_scene_item.StreamLabsAlert": [],
                 "libobs.hide_scene_item.champSelect Chat": [],
-                "libobs.hide_scene_item.champSelectOverlay FC": [],
-                "libobs.hide_scene_item.champSelectOverlay No FC": [],
+                "libobs.hide_scene_item.champSelectOverlayFC": [],
+                "libobs.hide_scene_item.champSelectOverlayNoFC": [],
                 "libobs.hide_scene_item.lolChampSelect": [],
-                "libobs.hide_scene_item.particles": [],
+                "libobs.hide_scene_item.particlesChampSelect": [],
                 "libobs.show_scene_item.Bans": [],
                 "libobs.show_scene_item.Facecam": [],
+                "libobs.show_scene_item.ScoreboardChampSelect": [],
                 "libobs.show_scene_item.StreamLabsAlert": [],
                 "libobs.show_scene_item.champSelect Chat": [],
-                "libobs.show_scene_item.champSelectOverlay FC": [],
-                "libobs.show_scene_item.champSelectOverlay No FC": [],
+                "libobs.show_scene_item.champSelectOverlayFC": [],
+                "libobs.show_scene_item.champSelectOverlayNoFC": [],
                 "libobs.show_scene_item.lolChampSelect": [],
-                "libobs.show_scene_item.particles": []
+                "libobs.show_scene_item.particlesChampSelect": []
             },
             "id": "scene",
             "mixers": 0,
@@ -2418,7 +2688,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 21,
+                "id_counter": 28,
                 "items": [
                     {
                         "align": 5,
@@ -2801,8 +3071,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.24322916567325592,
-                            "y": 0.24351851642131805
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2822,7 +3092,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": true,
-                        "name": "champSelectOverlay FC",
+                        "name": "champSelectOverlayFC",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -2854,7 +3124,7 @@
                         "group_item_backup": false,
                         "id": 5,
                         "locked": true,
-                        "name": "champSelectOverlay No FC",
+                        "name": "champSelectOverlayNoFC",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -2869,7 +3139,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -2888,7 +3158,7 @@
                         "locked": true,
                         "name": "champSelect Chat",
                         "pos": {
-                            "x": 878.0,
+                            "x": 892.0,
                             "y": 787.0
                         },
                         "private_settings": {
@@ -2897,8 +3167,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.83499997854232788,
-                            "y": 0.83499997854232788
+                            "x": 0.81749999523162842,
+                            "y": 0.81666666269302368
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2920,8 +3190,40 @@
                         "locked": true,
                         "name": "StreamLabsAlert",
                         "pos": {
-                            "x": 652.0,
-                            "y": 363.0
+                            "x": 417.5,
+                            "y": 146.5
+                        },
+                        "private_settings": {
+                            "color": "",
+                            "color-preset": 4
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.65519320964813232,
+                            "y": 0.65528726577758789
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 22,
+                        "locked": true,
+                        "name": "particlesChampSelect",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "private_settings": {
                             "color": "",
@@ -2947,17 +3249,134 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 21,
-                        "locked": true,
-                        "name": "particles",
+                        "group_item_backup": true,
+                        "id": 24,
+                        "locked": false,
+                        "name": "blueSide",
                         "pos": {
+                            "x": 31.0,
+                            "y": 70.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 25,
+                        "locked": false,
+                        "name": "blueSide Score",
+                        "pos": {
+                            "x": 429.0,
+                            "y": 66.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 26,
+                        "locked": false,
+                        "name": "redSide",
+                        "pos": {
+                            "x": 1720.0,
+                            "y": 68.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 27,
+                        "locked": false,
+                        "name": "redSide Score",
+                        "pos": {
+                            "x": 1451.0,
+                            "y": 68.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 23,
+                        "locked": true,
+                        "name": "ScoreboardChampSelect",
+                        "pos": {
+                            "x": 31.0,
+                            "y": 66.0
+                        },
                         "private_settings": {
+                            "collapsed": true,
                             "color": "",
-                            "color-preset": 4
+                            "color-preset": 3
                         },
                         "rot": 0.0,
                         "scale": {
@@ -2968,39 +3387,6 @@
                         "visible": true
                     }
                 ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "dshow_input",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "Facecam",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "active": true,
-                "last_resolution": "1920x1080",
-                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&1675cddf&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
-                "res_type": 1,
-                "resolution": "1920x1080",
-                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&1675cddf&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
             },
             "sync": 0,
             "volume": 1.0
@@ -3039,7 +3425,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "launcherOverlay FC",
+            "name": "launcherOverlayFC",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3068,8 +3454,8 @@
                 "libobs.hide_scene_item.Facecam": [],
                 "libobs.hide_scene_item.StreamLabsAlert": [],
                 "libobs.hide_scene_item.clientStreamerName": [],
-                "libobs.hide_scene_item.launcherOverlay FC": [],
-                "libobs.hide_scene_item.launcherOverlay No FC": [],
+                "libobs.hide_scene_item.launcherOverlayFC": [],
+                "libobs.hide_scene_item.launcherOverlayNoFC": [],
                 "libobs.hide_scene_item.lollauncher": [],
                 "libobs.hide_scene_item.particles": [],
                 "libobs.hide_scene_item.slideshow": [],
@@ -3077,8 +3463,8 @@
                 "libobs.show_scene_item.Facecam": [],
                 "libobs.show_scene_item.StreamLabsAlert": [],
                 "libobs.show_scene_item.clientStreamerName": [],
-                "libobs.show_scene_item.launcherOverlay FC": [],
-                "libobs.show_scene_item.launcherOverlay No FC": [],
+                "libobs.show_scene_item.launcherOverlayFC": [],
+                "libobs.show_scene_item.launcherOverlayNoFC": [],
                 "libobs.show_scene_item.lollauncher": [],
                 "libobs.show_scene_item.particles": [],
                 "libobs.show_scene_item.slideshow": [],
@@ -3147,8 +3533,8 @@
                         "locked": true,
                         "name": "Facecam",
                         "pos": {
-                            "x": 14.0,
-                            "y": 432.0
+                            "x": 1344.0,
+                            "y": 868.0
                         },
                         "private_settings": {
                             "color": "",
@@ -3156,8 +3542,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.2526041567325592,
-                            "y": 0.25277778506278992
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -3209,7 +3595,7 @@
                         "group_item_backup": false,
                         "id": 1,
                         "locked": true,
-                        "name": "launcherOverlay FC",
+                        "name": "launcherOverlayFC",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -3241,7 +3627,7 @@
                         "group_item_backup": false,
                         "id": 6,
                         "locked": true,
-                        "name": "launcherOverlay No FC",
+                        "name": "launcherOverlayNoFC",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -3256,7 +3642,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -3288,7 +3674,7 @@
                             "y": 1.109375
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -3307,8 +3693,8 @@
                         "locked": true,
                         "name": "StreamLabsAlert",
                         "pos": {
-                            "x": 861.0,
-                            "y": 243.0
+                            "x": 362.0,
+                            "y": -193.0
                         },
                         "private_settings": {
                             "color": "",
@@ -3316,8 +3702,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.2259999513626099,
-                            "y": 1.2266666889190674
+                            "x": 0.98731881380081177,
+                            "y": 0.98751038312911987
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -3404,29 +3790,6 @@
                     "enabled": true,
                     "flags": 0,
                     "hotkeys": {},
-                    "id": "color_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Farbkorrektur",
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "opacity": 22
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                },
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
                     "id": "sharpness_filter",
                     "mixers": 0,
                     "monitoring_type": 0,
@@ -3439,6 +3802,29 @@
                     "push-to-talk-delay": 0,
                     "settings": {
                         "sharpness": 0.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Chroma Key",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "opacity": 33
                     },
                     "sync": 0,
                     "volume": 1.0
@@ -3471,6 +3857,86 @@
                 "looping": true,
                 "restart_on_activate": true,
                 "speed_percent": 75
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "sharpness_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Schärfen",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "sharpness": 0.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Chroma Key",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "opacity": 20
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Restart": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "particlesChampSelect",
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "local_file": "../../- Overlays/Particles.webm",
+                "looping": true
             },
             "sync": 0,
             "volume": 1.0
