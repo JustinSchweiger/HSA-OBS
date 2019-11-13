@@ -16,6 +16,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Mic/Aux",
+        "prev_ver": 402653185,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -25,7 +26,7 @@
             "device_id": "default"
         },
         "sync": 0,
-        "volume": 1.0
+        "volume": 0.47455188632011414
     },
     "DesktopAudioDevice1": {
         "balance": 0.5,
@@ -44,6 +45,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Desktop Audio",
+        "prev_ver": 402653185,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -53,10 +55,10 @@
             "device_id": "default"
         },
         "sync": 0,
-        "volume": 1.0
+        "volume": 0.90159839391708374
     },
-    "current_program_scene": "IdleScreen",
-    "current_scene": "IdleScreen",
+    "current_program_scene": "LoadingScreen",
+    "current_scene": "LoadingScreen",
     "current_transition": "HSA Transition",
     "groups": [],
     "modules": {
@@ -76,6 +78,7 @@
         "output-timer": {
             "autoStartRecordTimer": false,
             "autoStartStreamTimer": false,
+            "pauseRecordTimer": false,
             "recordTimerHours": 0,
             "recordTimerMinutes": 0,
             "recordTimerSeconds": 30,
@@ -138,6 +141,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Facecam",
+            "prev_ver": 402653185,
             "private_settings": {
                 "mixer_hidden": true
             },
@@ -168,6 +172,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "ingameStreamerName",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -213,6 +218,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Schärfen",
+                    "prev_ver": 402653185,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -236,6 +242,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Chroma Key",
+                    "prev_ver": 402653185,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -261,6 +268,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "particles",
+            "prev_ver": 402653185,
             "private_settings": {
                 "mixer_hidden": true
             },
@@ -293,6 +301,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "slideshow",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -348,6 +357,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Launcher",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -387,7 +397,7 @@
                             "y": 0.25277778506278992
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -515,7 +525,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -547,7 +557,7 @@
                             "y": 1.109375
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -662,6 +672,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "launcherOverlay FC",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -685,6 +696,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "lollauncher",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -708,6 +720,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "launcherOverlay No FC",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -743,6 +756,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "LoadingScreen",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -833,6 +847,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "loadingScreen Overlay",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -876,6 +891,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Ingame",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -979,7 +995,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1043,7 +1059,7 @@
                             "y": 1.125
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1094,6 +1110,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "ingameSpectate Overlay FC",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1117,6 +1134,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "clientStreamerName",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1173,6 +1191,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "IdleScreen",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1359,6 +1378,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "IdleScreen Overlay",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1376,12 +1396,18 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
             "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
+            "mixers": 63,
+            "monitoring_type": 1,
             "muted": false,
             "name": "IdleScreen Chat",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1410,6 +1436,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "lolLoadingScreen",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1437,6 +1464,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "lolIngame",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1455,12 +1483,18 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
             "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
+            "mixers": 63,
+            "monitoring_type": 1,
             "muted": false,
             "name": "StreamLabsAlert",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1481,12 +1515,18 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
             "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
+            "mixers": 63,
+            "monitoring_type": 1,
             "muted": false,
             "name": "launcherChat",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1513,6 +1553,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "minimapCover",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1536,6 +1577,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "idleScreenText",
+            "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
